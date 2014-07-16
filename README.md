@@ -1,7 +1,7 @@
 GCMHelloWorld
 =============
 
-Android project to remotely control Yeelight light bulb over Bluetooth Low Energy using Google Cloud Messsaging(GCM)
+Android project to remotely control Yeelight light bulb over Bluetooth Low Energy using Google Cloud Messaging(GCM)
 
 It includes two activities:
 - MainActivity: used to retrieve a registrationId from Google Cloud Messaging server for the corresponding Google API project.  Must be run once before the app can start using GCM. It also includes a button to generate a dummy push notification that is then received by the app through GCM. The registration Id number presented on screen must be used by the server application together with its API key to send messages to the user's mobile/app 
