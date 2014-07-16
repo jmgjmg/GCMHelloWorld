@@ -13,11 +13,11 @@ to the light bulb. The BLE service must be started before any push messages can 
 For security resasons, GCM key values are stored in a file in the src directory (Constant.java). The original file
 is removed from the github repository, however a dummy Constant.java.txt file is available. Rename it to Constant.java and update its content with the right values obtained when creating the application in the Google Developers Console.
 
-The MAC value of the Yeelight bulb must be updated in file Strings.XML (deafultAddress).
+The MAC value of the Yeelight bulb must be updated in file `strings.xml` (defaultAddress).
 
 The configuration of the light bulb can be updated by sending a JSON message over http POST to Google GCM server.
 
-Example (replace values of API-key XXXXXXXXXXXXXX and registration-id YYYYYYYYY with your own values
+Example (replace values of API-key XXXXXXXXXXXXXX and registration-id YYYYYYYYY with your own values)
 
 ```
 POST https://android.googleapis.com/gcm/send HTTP/1.1
@@ -36,3 +36,9 @@ Red, Green and Blue values are integers between 0 and 255.
 
 For more information about the format of this message, please read Google's documentation: 
 https://developer.android.com/google/gcm/http.html
+
+#### Further information
+- Basic GCM tutorial (I have followed it to create the Google project with GCM API and my GCMHelloWorld Android app) http://hmkcode.com/android-google-cloud-messaging-tutorial/
+- Yeelight Blue bulbs: http://www.yeelight.com/en_US/info/download
+- More info on Bluetooth Low Energy, Android and Yeelight: http://wiki.makespacemadrid.org/index.php?title=Bombilla_LED_de_colores_con_Bluetooth_Low_Energy
+- Home page of GCM: https://developer.android.com/google/gcm/index.html
