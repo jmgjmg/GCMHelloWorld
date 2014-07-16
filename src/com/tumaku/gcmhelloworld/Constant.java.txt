@@ -1,0 +1,8 @@
+package com.tumaku.gcmhelloworld;
+
+public class Constant {
+
+	public static boolean DEBUG =true;
+	public static String gcmAPIKey= "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+	public static String projectNumber = "XXXXXXXXXXXXXX";
+}

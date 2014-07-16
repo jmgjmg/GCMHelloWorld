@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GCMHelloWorld</string>
+    <string name="control_light">GCMControlLight</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="prefs_file">SettingsFile</string>
+    <string name="regId">RegId</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="intensity">Intensity</string>
+    <string name="timeOn">Time On</string>
+    <string name="timeOff">Time Off</string>
+    <string name="send">Send</string>
+    <string name="startBLE">Start BLE Service</string>
+    <string name="stopBLE">Stop BLE Service</string>
+    <string name="color">Color</string>
+    <string name="data">data</string>
+    <string name="regIds">registration_ids</string>
+    <string name="receiveBroadcast">ReceiveBroadcast</string>
+    <string name="serviceOn">ServiceOn</string>
+    <string name="address">Address</string>
+    <string name="state">State: </string>    
+    <string name="defaultAddress">88:33:14:DE:C4:DF</string>
+</resources>
